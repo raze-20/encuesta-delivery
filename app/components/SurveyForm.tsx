@@ -1,9 +1,9 @@
 'use client';
 
 import { useActionState, useState } from 'react';
-import { submitSurvey } from '@/app/actions';
+import { submitSurvey, type State } from '@/app/actions';
 
-const initialState = {
+const initialState: State = {
   message: '',
   success: false,
 };

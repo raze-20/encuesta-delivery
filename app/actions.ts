@@ -2,7 +2,7 @@
 
 import { supabase } from '@/lib/supabase';
 
-type State = {
+export type State = {
   message: string;
   success?: boolean;
   userName?: string;
